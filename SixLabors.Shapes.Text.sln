@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C317F1B1-D75E-4C6D-83EB-80367343E0D7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SixLabors.Shapes.Text", "SixLabors.Shapes.Text\SixLabors.Shapes.Text.csproj", "{BD2ABB1F-6690-46F4-A6C3-C549DFBF05C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD2ABB1F-6690-46F4-A6C3-C549DFBF05C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2ABB1F-6690-46F4-A6C3-C549DFBF05C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2ABB1F-6690-46F4-A6C3-C549DFBF05C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2ABB1F-6690-46F4-A6C3-C549DFBF05C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE76908A-6491-4C91-A8D1-33B5EC399378}
+	EndGlobalSection
+EndGlobal

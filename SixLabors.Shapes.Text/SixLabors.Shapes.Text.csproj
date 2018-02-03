@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>      
+    <TargetFrameworks>netstandard1.1;netstandard1.3;netstandard1.6;netstandard2.0;netcoreapp2.0;net45;net471</TargetFrameworks>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageIconUrl>https://raw.githubusercontent.com/SixLabors/Shapes/master/icons/icon.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/Latency/ImageSharp.Shapes.Text</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <RepositoryUrl>https://github.com/Latency/ImageSharp.Shapes.Text</RepositoryUrl>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <Company>Six Labors</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Copyright>Copyright (c) Six Labors and contributors.</Copyright>
+    <Authors>SixLabors</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Allows generating glyphs for text and a font for manipulation using SixLabors.Shapes</Description>
+    <AssemblyTitle>SixLabors.Shapes.Text</AssemblyTitle>
+    <RootNamespace>SixLabors.Shapes.Text</RootNamespace>
+    <AssemblyName>SixLabors.Shapes.Text</AssemblyName>
+    <PackageId>SixLabors.Shapes.Text</PackageId>
+    <PackageTags>Shapes Text</PackageTags>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.1|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard1.1\SixLabors.Shapes.Text.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SixLabors.Fonts" Version="1.0.1" />
+    <PackageReference Include="SixLabors.Shapes" Version="1.0.1" />
+  </ItemGroup>
+</Project>
